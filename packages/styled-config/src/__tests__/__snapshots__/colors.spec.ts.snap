@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`primary colors light 1`] = `
+Object {
+  "backgroundLow": "#F5F6F8",
+  "blue5": "#F1F8FF",
+  "white": "#ffffff",
+}
+`;
