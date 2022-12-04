@@ -1,12 +1,12 @@
 {
   "name": "@songc/test2",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "esm/index.js",
   "sideEffects": false,
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "test:watch": "yarn test --watch"
   },
   "dependencies": {
-    "@songc/test1": "workspace:^0.0.1"
+    "@songc/test1": "workspace:^1.0.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.18.10",
