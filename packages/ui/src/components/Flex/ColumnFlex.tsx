@@ -22,7 +22,7 @@ const ColumnFlex: ColumnFlexComponent = forwardRef(
   <C extends React.ElementType = 'div'>(
     {
       flexDirection = 'column',
-      alignItems = 'flex-start',
+      alignItems = 'flex-end',
       justifyContent = 'flex-start',
       children,
       gap,
