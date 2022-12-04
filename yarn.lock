@@ -3371,7 +3371,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@songc/test1@workspace:^0.0.1, @songc/test1@workspace:packages/styled-config":
+"@songc/test1@workspace:^1.0.0, @songc/test1@workspace:packages/styled-config":
   version: 0.0.0-use.local
   resolution: "@songc/test1@workspace:packages/styled-config"
   dependencies:
@@ -3405,7 +3405,7 @@ __metadata:
     "@rollup/plugin-json": ^4.1.0
     "@rollup/plugin-node-resolve": ^13.3.0
     "@rollup/plugin-url": ^7.0.0
-    "@songc/test1": "workspace:^0.0.1"
+    "@songc/test1": "workspace:^1.0.0"
     "@storybook/addon-docs": ^6.5.9
     "@storybook/react": 6.4.9
     "@svgr/rollup": ^6.3.1
