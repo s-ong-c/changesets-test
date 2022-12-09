@@ -19,7 +19,8 @@
     "lint": "yarn workspaces foreach -pt --from '@songc/*' run lint",
     "test": "yarn workspaces foreach -pt --from '@songc/*' run test",
     "typecheck": "yarn workspaces foreach -pt --from '@songc/*' run typecheck",
-    "build": "yarn workspaces foreach -pt --from '@songc/*' run build"
+    "build": "yarn workspaces foreach -pt --from '@songc/*' run build",
+    "release": "changeset publish"
   },
   "license": "MIT",
   "lint-staged": {
