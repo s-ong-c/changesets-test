@@ -23,7 +23,7 @@ const ColumnFlex: ColumnFlexComponent = forwardRef(
     {
       flexDirection = 'column',
       alignItems = 'flex-end',
-      justifyContent = 'flex-start',
+      justifyContent = 'center',
       children,
       gap,
       $shrink,
