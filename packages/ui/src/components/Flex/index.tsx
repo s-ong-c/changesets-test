@@ -22,7 +22,7 @@ const Flex: FlexComponent = forwardRef(
   <C extends React.ElementType = 'div'>(
     {
       flexDirection = 'row',
-      alignItems = 'flex-start',
+      alignItems = 'center',
       justifyContent = 'flex-start',
       children,
       gap,
