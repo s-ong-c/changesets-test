@@ -37,6 +37,13 @@ jobs:
         run: yarn install --immutable
       - name: Validate dependency tree
         run: yarn workspaces foreach -t run build
+      - name: Config Git User
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "Release Bot"
+          git remote set-url origin https://$GITHUB_ACTOR:$NPM_TOKEN@github.com/s-ong-c/changeset-test
+        env:
+          GH_TOKEN: ${{ secrets.GA_MVN_PUB_GITHUB_TOKEN }}
       - name: Create Release Pull Request or Publish to npm
         uses: changesets/action@v1
         with:
