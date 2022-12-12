@@ -21,7 +21,7 @@ export const DEFAULT_ELEMENT = 'div' as const
 const ColumnFlex: ColumnFlexComponent = forwardRef(
   <C extends React.ElementType = 'div'>(
     {
-      flexDirection = 'column',
+      flexDirection = 'column-reverse',
       alignItems = 'flex-end',
       justifyContent = 'flex-start',
       children,
