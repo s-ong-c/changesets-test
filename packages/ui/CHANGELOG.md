@@ -1,5 +1,11 @@
 # @songc/test2
 
+## 3.0.0
+
+### Major Changes
+
+- 8d330d0: q
+
 ## 2.0.1
 
 ### Patch Changes
