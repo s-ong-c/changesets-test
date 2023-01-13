@@ -1,1 +1,5 @@
-delete_closed_pr: true
+exclude:
+    - main
+    - develop
+    - **/**
+delete_closed_pr: false
