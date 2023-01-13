@@ -1,3 +1,5 @@
 exclude:
     - develop
+    - staging
+    - main
 delete_closed_pr: false
