@@ -1,1 +1,1 @@
-export const a = () => console.log('tets')
+export const a = () => console.log('test')
