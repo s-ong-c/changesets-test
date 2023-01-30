@@ -1,5 +1,11 @@
 # @songc/test2
 
+## 4.0.0
+
+### Major Changes
+
+- 449b6ca: test
+
 ## 3.0.0
 
 ### Major Changes
