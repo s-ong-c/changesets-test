@@ -108,7 +108,6 @@ export const GlobalStyle = () => (
         summary,
         time,
         mark,
-        audio,
         video {
           padding: 0;
           border: 0;
