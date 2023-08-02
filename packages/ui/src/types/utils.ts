@@ -9,3 +9,7 @@ export type CombineElementProps<E extends ElementType, P = unknown> = Combine<
   P,
   ComponentProps<E>
 >
+export type CombineElementProps2<E extends ElementType, P = unknown> = Combine<
+  P,
+  ComponentProps<E>
+>
