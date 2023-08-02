@@ -1,5 +1,11 @@
 # @songc/test2
 
+## 4.0.1
+
+### Patch Changes
+
+- 3ee8ac2: test1
+
 ## 4.0.0
 
 ### Major Changes
